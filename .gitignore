@@ -1,0 +1,6 @@
+.stack-work/
+*.o
+*.hi
+*.exe
+*.dyn_o
+*.dyn_hi
