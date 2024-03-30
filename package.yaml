@@ -1,0 +1,12 @@
+name: Game-of-Life
+version: 0.1.0.0
+dependencies:
+  - base >= 4.7 && < 5
+  - gloss
+  - random
+
+executables:
+  Game-of-Life-exe:
+    main: Main.hs
+    source-dirs: src
+
