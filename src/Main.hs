@@ -11,9 +11,9 @@ type Grid = [[Cell]]
 -- Game state
 type GameState = (Grid, Bool)
 
--- Fullscreen
+-- Window
 window :: Display
-window = FullScreen
+window = InWindow "Conway's Game of Life" (600, 600) (100, 100)
 -- Backround color
 background :: Color
 background = white
@@ -127,6 +127,7 @@ updateGrid grid = [[updateCell x y | x <- [0..gridSize-1]] | y <- [0..gridSize-1
                      (_, 3)    -> True
                      _         -> False
       in newState
+
 
 
 
