@@ -12,7 +12,7 @@ The project was developed as part of my studies for the "Functional Programming"
 
 #### <ins>Example</ins>
 
-![Gosper's Glider Gun](resources/animation.gif)
+![Different patterns](resources/animation.gif)
 
 #### <ins>Features</ins>
 - Interactive marking of cells as alive or dead before starting the simulation
