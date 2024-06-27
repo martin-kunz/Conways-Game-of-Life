@@ -16,7 +16,7 @@ The project was developed as part of my studies for the "Functional Programming"
 
 #### <ins>Features</ins>
 - Interactive marking of cells as alive or dead before starting the simulation
-- Start/stop the simulation at the touch of the space bar
+- Start/stop the simulation by touching the space bar
 - Simulation of the life cycle based on the rules of Conway's Game of Life
 
 #### <ins>Prerequisites</ins>
